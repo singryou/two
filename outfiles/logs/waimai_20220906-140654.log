@@ -1,0 +1,60 @@
+2022-09-06 14:06:54,baseAPI(line:32),INFO|模块名:Login
+2022-09-06 14:06:54,baseAPI(line:33),INFO|请求url:http://121.41.14.39:8082/account/sLogin?username=th0198&password=c607d58e3618832f937d80d500a6046c
+2022-09-06 14:06:54,baseAPI(line:34),INFO|请求方法:POST
+2022-09-06 14:06:54,baseAPI(line:35),INFO|请求体:None
+2022-09-06 14:06:54,baseAPI(line:36),INFO|响应体:{'code': 20000, 'data': {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjI0NDgwMTQsInVzZXJJZCI6MTA3MDIsInVzZXJuYW1lIjoidGgwMTk4In0.8UIT6az-DZuZVT9WUofPpOLssjFsLFVEWiNUsPp-Xb8'}, 'flag': '松勤教育', 'msg': '成功', 'success': False}
+2022-09-06 14:06:54,apiAssert(line:33),ERROR|Traceback (most recent call last):
+  File "D:\all\zrs\Python\two\common\apiAssert.py", line 22, in api_assert
+    '>' : result[assert_info] > exp_result[assert_info] if not isinstance(exp_result[assert_info]) else False,
+TypeError: isinstance expected 2 arguments, got 1
+
+2022-09-06 14:06:55,baseAPI(line:32),INFO|模块名:Login
+2022-09-06 14:06:55,baseAPI(line:33),INFO|请求url:http://121.41.14.39:8082/account/sLogin?username=th0198&password=d41d8cd98f00b204e9800998ecf8427e
+2022-09-06 14:06:55,baseAPI(line:34),INFO|请求方法:POST
+2022-09-06 14:06:55,baseAPI(line:35),INFO|请求体:None
+2022-09-06 14:06:55,baseAPI(line:36),INFO|响应体:{'code': 9999, 'data': '', 'flag': '松勤教育', 'msg': '输入的密码错误!', 'success': False}
+2022-09-06 14:06:55,apiAssert(line:33),ERROR|Traceback (most recent call last):
+  File "D:\all\zrs\Python\two\common\apiAssert.py", line 22, in api_assert
+    '>' : result[assert_info] > exp_result[assert_info] if not isinstance(exp_result[assert_info]) else False,
+TypeError: isinstance expected 2 arguments, got 1
+
+2022-09-06 14:06:55,baseAPI(line:32),INFO|模块名:Login
+2022-09-06 14:06:55,baseAPI(line:33),INFO|请求url:http://121.41.14.39:8082/account/sLogin?username=&password=c607d58e3618832f937d80d500a6046c
+2022-09-06 14:06:55,baseAPI(line:34),INFO|请求方法:POST
+2022-09-06 14:06:55,baseAPI(line:35),INFO|请求体:None
+2022-09-06 14:06:55,baseAPI(line:36),INFO|响应体:{'code': 9999, 'data': '', 'flag': '松勤教育', 'msg': '该用户不存在!', 'success': False}
+2022-09-06 14:06:55,apiAssert(line:33),ERROR|Traceback (most recent call last):
+  File "D:\all\zrs\Python\two\common\apiAssert.py", line 22, in api_assert
+    '>' : result[assert_info] > exp_result[assert_info] if not isinstance(exp_result[assert_info]) else False,
+TypeError: isinstance expected 2 arguments, got 1
+
+2022-09-06 14:06:55,baseAPI(line:32),INFO|模块名:Login
+2022-09-06 14:06:55,baseAPI(line:33),INFO|请求url:http://121.41.14.39:8082/account/sLogin?username=&password=d41d8cd98f00b204e9800998ecf8427e
+2022-09-06 14:06:55,baseAPI(line:34),INFO|请求方法:POST
+2022-09-06 14:06:55,baseAPI(line:35),INFO|请求体:None
+2022-09-06 14:06:55,baseAPI(line:36),INFO|响应体:{'code': 9999, 'data': '', 'flag': '松勤教育', 'msg': '该用户不存在!', 'success': False}
+2022-09-06 14:06:55,apiAssert(line:33),ERROR|Traceback (most recent call last):
+  File "D:\all\zrs\Python\two\common\apiAssert.py", line 22, in api_assert
+    '>' : result[assert_info] > exp_result[assert_info] if not isinstance(exp_result[assert_info]) else False,
+TypeError: isinstance expected 2 arguments, got 1
+
+2022-09-06 14:06:55,baseAPI(line:32),INFO|模块名:Login
+2022-09-06 14:06:55,baseAPI(line:33),INFO|请求url:http://121.41.14.39:8082/account/sLogin?username=th0198&password=68053af2923e00204c3ca7c6a3150cf7
+2022-09-06 14:06:55,baseAPI(line:34),INFO|请求方法:POST
+2022-09-06 14:06:55,baseAPI(line:35),INFO|请求体:None
+2022-09-06 14:06:55,baseAPI(line:36),INFO|响应体:{'code': 9999, 'data': '', 'flag': '松勤教育', 'msg': '输入的密码错误!', 'success': False}
+2022-09-06 14:06:55,apiAssert(line:33),ERROR|Traceback (most recent call last):
+  File "D:\all\zrs\Python\two\common\apiAssert.py", line 22, in api_assert
+    '>' : result[assert_info] > exp_result[assert_info] if not isinstance(exp_result[assert_info]) else False,
+TypeError: isinstance expected 2 arguments, got 1
+
+2022-09-06 14:06:55,baseAPI(line:32),INFO|模块名:Login
+2022-09-06 14:06:55,baseAPI(line:33),INFO|请求url:http://121.41.14.39:8082/account/sLogin?username=abcde&password=c607d58e3618832f937d80d500a6046c
+2022-09-06 14:06:55,baseAPI(line:34),INFO|请求方法:POST
+2022-09-06 14:06:55,baseAPI(line:35),INFO|请求体:None
+2022-09-06 14:06:55,baseAPI(line:36),INFO|响应体:{'code': 9999, 'data': '', 'flag': '松勤教育', 'msg': '该用户不存在!', 'success': False}
+2022-09-06 14:06:55,apiAssert(line:33),ERROR|Traceback (most recent call last):
+  File "D:\all\zrs\Python\two\common\apiAssert.py", line 22, in api_assert
+    '>' : result[assert_info] > exp_result[assert_info] if not isinstance(exp_result[assert_info]) else False,
+TypeError: isinstance expected 2 arguments, got 1
+

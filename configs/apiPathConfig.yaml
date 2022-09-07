@@ -1,0 +1,37 @@
+Login: # 登录模块
+  login: # 登录接口
+    path: /account/sLogin
+    method: POST
+
+Shop: # 店铺模块
+  query: # 查询接口
+    path: /shopping/myShop
+    method: GET
+  update: # 修改接口
+    path: /shopping/updatemyshop
+    method: POST
+  file_upload: # 文件上传接口
+    path: /file
+    method: POST
+
+FoodManage: # 食品管理模块
+  category_list: # 列出店铺食品信息
+    path: /shopping/getcategory/
+    method: GET
+  query: # 列出食品
+    path: /shopping/v2/myFoods
+    method: GET
+  add: # 添加食品
+    path: /shopping/addmyfood
+    method: POST
+  update: # 编辑食品
+    path: /shopping/v2/updatemyfood
+    method: POST
+  dalete: #删除食品
+    path: /shopping/v2/fooddel/
+    method: DELETE
+
+OrderAdmin: # 我的订单
+  query: # 订单接口
+    path: /bos/myOrders
+    method: GET

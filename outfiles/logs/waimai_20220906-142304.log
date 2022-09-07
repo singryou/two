@@ -1,0 +1,18 @@
+2022-09-06 14:23:04,baseAPI(line:32),INFO|模块名:Login
+2022-09-06 14:23:04,baseAPI(line:33),INFO|请求url:http://121.41.14.39:8082/account/sLogin?username=&password=c607d58e3618832f937d80d500a6046c
+2022-09-06 14:23:04,baseAPI(line:34),INFO|请求方法:POST
+2022-09-06 14:23:04,baseAPI(line:35),INFO|请求体:None
+2022-09-06 14:23:04,baseAPI(line:36),INFO|响应体:{'code': 9999, 'data': '', 'flag': '松勤教育', 'msg': '该用户不存在!', 'success': False}
+2022-09-06 14:23:04,apiAssert(line:31),INFO|登录断言操作,断言类型:==,断言结果:断言操作，响应结果：该用户不存在!，预期结果：该用户不存在!
+2022-09-06 14:23:04,baseAPI(line:32),INFO|模块名:Login
+2022-09-06 14:23:04,baseAPI(line:33),INFO|请求url:http://121.41.14.39:8082/account/sLogin?username=&password=d41d8cd98f00b204e9800998ecf8427e
+2022-09-06 14:23:04,baseAPI(line:34),INFO|请求方法:POST
+2022-09-06 14:23:04,baseAPI(line:35),INFO|请求体:None
+2022-09-06 14:23:04,baseAPI(line:36),INFO|响应体:{'code': 9999, 'data': '', 'flag': '松勤教育', 'msg': '该用户不存在!', 'success': False}
+2022-09-06 14:23:04,apiAssert(line:31),INFO|登录断言操作,断言类型:==,断言结果:断言操作，响应结果：该用户不存在!，预期结果：该用户不存在!
+2022-09-06 14:23:04,baseAPI(line:32),INFO|模块名:Login
+2022-09-06 14:23:04,baseAPI(line:33),INFO|请求url:http://121.41.14.39:8082/account/sLogin?username=th0198&password=68053af2923e00204c3ca7c6a3150cf7
+2022-09-06 14:23:04,baseAPI(line:34),INFO|请求方法:POST
+2022-09-06 14:23:04,baseAPI(line:35),INFO|请求体:None
+2022-09-06 14:23:04,baseAPI(line:36),INFO|响应体:{'code': 9999, 'data': '', 'flag': '松勤教育', 'msg': '输入的密码错误!', 'success': False}
+2022-09-06 14:23:04,apiAssert(line:31),INFO|登录断言操作,断言类型:==,断言结果:断言操作，响应结果：输入的密码错误!，预期结果：输入的密码错误!
